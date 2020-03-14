@@ -22,11 +22,11 @@ export default class ContactForm extends React.Component {
         >
           <label class="block mt-4">
             <span>Name</span>
-            <input name="_replyto" required class="form-input mt-1 block w-full text-purple" placeholder="First Last" />
+            <input name="user-name" required class="form-input mt-1 block w-full text-purple" placeholder="First Last" />
           </label>
           <label class="block mt-4">
             <span>Email</span>
-            <input name="user-email" required type="email" class="form-input mt-1 block w-full text-purple" placeholder="you@excitingthings.org" />
+            <input name="_replyto" required type="email" class="form-input mt-1 block w-full text-purple" placeholder="you@excitingthings.org" />
           </label>
           <label class="block mt-4">
             <span>Phone</span>
