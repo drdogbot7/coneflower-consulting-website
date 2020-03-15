@@ -13,20 +13,20 @@ import strategicPlanning from "../images/coneflower-consulting-strategic-plannin
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-      <div className="bg-purple text-white py-16">
-        <div className="max-w-3xl mx-auto text-lg">
-          <p>
-            Just as the flora and fauna of the Great Plains are shaped by the
-            rolling prairies and rugged climate in which they exist, non-profits
-            face special challenges and unique opportunities based on their
-            geographic, cultural, and political environments. At Coneflower
-            Consulting, we are committed to helping creative non-profits in the
-            Midwest flourish. Whether your non-profit organization’s mission is in
-            arts & culture, humanities, or education, we’re here to help you
-            cultivate the resources you need to thrive.
-          </p>
-        </div>
+    <div className="bg-purple text-white py-16">
+      <div className="max-w-3xl mx-auto text-lg">
+        <p>
+          Just as the flora and fauna of the Great Plains are shaped by the
+          rolling prairies and rugged climate in which they exist, non-profits
+          face special challenges and unique opportunities based on their
+          geographic, cultural, and political environments. At Coneflower
+          Consulting, we are committed to helping creative non-profits in the
+          Midwest flourish. Whether your non-profit organization’s mission is in
+          arts & culture, humanities, or education, we’re here to help you
+          cultivate the resources you need to thrive.
+        </p>
       </div>
+    </div>
     <div className="container mt-16">
       <HomeSection
         img={grantWriting}
@@ -67,12 +67,12 @@ const IndexPage = () => (
       <p className="mt-4">
         Coneflower Consulting was founded by Sarah Bishop, a longtime Kansan
         with a commitment to maintaining and expanding the vibrant creative,
-        cultural, and educational community of the Midwest. Sarah received her PhD in
-        literature and media from the University of Virginia and has over a decade
-        of experience in grant writing, fundraising, communications, strategic
-        planning, and leadership for Midwest non-profits and institutions of
-        higher education. Sarah is excited to help your Midwestern non-profit
-        build on its past successes to reach new heights.
+        cultural, and educational community of the Midwest. Sarah received her
+        PhD in literature and media from the University of Virginia and has over
+        a decade of experience in grant writing, fundraising, communications,
+        strategic planning, and leadership for Midwest non-profits and
+        institutions of higher education. Sarah is excited to help your
+        Midwestern non-profit build on its past successes to reach new heights.
       </p>
     </div>
   </Layout>
