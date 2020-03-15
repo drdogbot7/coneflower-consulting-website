@@ -55,7 +55,7 @@ const IndexPage = () => (
         title="Leadership"
         description="We specialize in the challenges that come with leadership transitions and are well-equipped to help your organization navigate periods of change to end up stronger, more cohesive, and more motivated than ever! We work with staff, board members, and donors to ensure that all parties feel their needs are being met during times of transition, and we can also provide interim leadership and temporary staffing support."
       />
-      <hr className="my-8" />
+      <hr className="my-8 lg:my-16" />
       <h2 className="text-purple font-thin uppercase text-2xl">About Us</h2>
       <p className="mt-4">
         The humble coneflower is a common sighting amongst the prairie grasses

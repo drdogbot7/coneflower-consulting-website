@@ -1,10 +1,11 @@
 import React from "react"
 
 const HomeSection = props => (
-  <div className="md:flex items-center justify-between -mx-4">
+  <div className="md:flex items-center justify-between -m-4 md:-m-8">
     <div
       className={
-        "w-full md:w-5/12 p-4" + (props.imgLast === true ? " order-last" : "")
+        "w-full md:w-1/2 p-4 lg:p-8" +
+        (props.imgLast === true ? " order-last" : "")
       }
     >
       <img
@@ -13,7 +14,7 @@ const HomeSection = props => (
         alt={props.title}
       />
     </div>
-    <div className="p-4 md:w-1/2">
+    <div className={"p-4 lg:p-8 md:w-1/2"}>
       <h2 className="text-purple font-thin uppercase text-2xl">
         {props.title}
       </h2>
