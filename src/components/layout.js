@@ -17,7 +17,7 @@ import initClient from "./initClient"
 
 import "../styles/main.css"
 
-initClient();
+initClient()
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`

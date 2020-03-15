@@ -1,14 +1,14 @@
 /**
  * Initialize Client Side Only JS
  */
-import { addBackToTop } from 'vanilla-back-to-top'
+import { addBackToTop } from "vanilla-back-to-top"
 
 const initClient = () => {
-  if (typeof window === 'undefined') {
-    return null;
+  if (typeof window === "undefined") {
+    return null
   } else {
     addBackToTop({
-      backgroundColor: '#4F3590',
+      backgroundColor: "#4F3590",
     })
   }
 }
