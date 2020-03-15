@@ -1,10 +1,16 @@
 /* purgecss start ignore */
+
+/* Common */
 @tailwind  base;
+@import 'common/global.css';
+
+/* Components */
 @tailwind  components;
-/* purgecss end ignore */
 
 /* Vendor */
-
 @import "vendor/basiclightbox.css";
 
+/* purgecss end ignore */
+
+/* Utilities */
 @tailwind  utilities;
