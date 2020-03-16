@@ -8,6 +8,7 @@ import communications from "../images/coneflower-consulting-communications.svg"
 import fundraising from "../images/coneflower-consulting-fundraising.svg"
 import grantWriting from "../images/coneflower-consulting-grant-writing.svg"
 import leadership from "../images/coneflower-consulting-leadership.svg"
+import programming from "../images/coneflower-consulting-programming.svg"
 import strategicPlanning from "../images/coneflower-consulting-strategic-planning.svg"
 
 const IndexPage = () => (
@@ -29,28 +30,34 @@ const IndexPage = () => (
     </div>
     <div className="container mt-16">
       <HomeSection
+        img={programming}
+        title="Programming"
+        description="It’s what you do best.  But sometimes, even the experts need a fresh perspective or a little extra support.  Whether you’re taking your programming in new directions, serving new audiences, or meeting new objectives, we’ve got specialists in your area who can help.  We assist with online and in-person curriculum development for all ages, born-digital programming, creative placemaking projects, audience-building initiatives… If you can dream it, we can help make it a reality."
+      />
+      <HomeSection
+        imgLast
         img={grantWriting}
         title="Grant Writing"
         description="Coneflower Consulting has brought over $4 million in grants to the Midwest in just over eight years. We have experience not only finding grant opportunities that are unique to creative non-profits in the Midwest but securing them through our expertise in program development, proposal writing, project management, budgeting, and evaluation. Whether you’re just starting to think about grant funding, need help writing and submitting a grant application, or want administrative support for a previously secured grant award, we can help."
       />
       <HomeSection
-        imgLast
         img={fundraising}
         title="Fundraising"
-        description="At Coneflower Consulting, we love helping non-profits raise money! We provide support in the development, implementation, and evaluation of campaigns for major gifts, planned gifts, and memberships. From database organization to board trainings, case statements to campaign calendars, we’ve got you covered."
+        description="At Coneflower Consulting, we love helping non-profits raise money! We provide support in the development, implementation, and evaluation of campaigns for major gifts, planned gifts, and memberships. From database organization to board trainings, case statements to prospect research, we’ve got you covered."
       />
       <HomeSection
+        imgLast
         img={communications}
         title="Communications"
         description="It’s hard to rally people around your mission if you can’t communicate it clearly and memorably. With a combined staff experience of over twenty years in marketing and promotions, Coneflower Consulting supports all your website, digital media, graphic design, copy writing, and print publication needs."
-      />
+        />
       <HomeSection
-        imgLast
         img={strategicPlanning}
         title="Strategic Planning"
         description="Before you invest in that big consulting firm from the coast, take a look closer to home. We know the Midwest non-profit ecosystem inside and out, and we’re here to help you make the most of all that it has to offer, today and tomorrow."
-      />
+        />
       <HomeSection
+        imgLast
         img={leadership}
         title="Leadership"
         description="We specialize in the challenges that come with leadership transitions and are well-equipped to help your organization navigate periods of change to end up stronger, more cohesive, and more motivated than ever! We work with staff, board members, and donors to ensure that all parties feel their needs are being met during times of transition, and we can also provide interim leadership and temporary staffing support."

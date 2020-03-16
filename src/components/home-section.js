@@ -1,7 +1,7 @@
 import React from "react"
 
 const HomeSection = props => (
-  <div className="md:flex items-center justify-between -m-4 md:-m-8">
+  <div className="md:flex items-center justify-between -mx-4 md:-mx-8">
     <div
       className={
         "w-full md:w-1/2 p-4 lg:p-8" +
@@ -9,7 +9,7 @@ const HomeSection = props => (
       }
     >
       <img
-        className="w-full h-auto border border-gray-100"
+        className="w-full h-auto"
         src={props.img}
         alt={props.title}
       />

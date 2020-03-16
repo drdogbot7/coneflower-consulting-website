@@ -21,7 +21,7 @@ export default class ContactForm extends React.Component {
             method="POST"
           >
             <label className="block mt-4">
-              <span>Name</span>
+              <span>Name*</span>
               <input
                 name="user-name"
                 required
@@ -30,7 +30,7 @@ export default class ContactForm extends React.Component {
               />
             </label>
             <label className="block mt-4">
-              <span>Email</span>
+              <span>Email*</span>
               <input
                 name="_replyto"
                 required
@@ -48,6 +48,22 @@ export default class ContactForm extends React.Component {
                 className="form-input mt-1 block w-full text-purple"
                 placeholder="123-456-7890"
               />
+            </label>
+            <label className="block mt-4">
+              <span>We're interested in</span>
+              <select
+                name="user-interest"
+                className="form-select mt-1 block w-full text-purple"
+              >
+                <option value="" disabled selected>Select your option</option>
+                <option value="Programming">Programming</option>
+                <option value="Grant Writing">Grant Writing</option>
+                <option value="Fundraising">Fundraising</option>
+                <option value="Communications">Communications</option>
+                <option value="Strategic Planning">Strategic Planning</option>
+                <option value="Leadership">Leadership</option>
+                <option value="Other">Other</option>
+              </select>
             </label>
             <label className="block mt-4">
               <span>Message</span>
