@@ -20,41 +20,41 @@ export default class ContactForm extends React.Component {
             action="https://formspree.io/xpzlqvwe"
             method="POST"
           >
-            <label class="block mt-4">
+            <label className="block mt-4">
               <span>Name</span>
               <input
                 name="user-name"
                 required
-                class="form-input mt-1 block w-full text-purple"
+                className="form-input mt-1 block w-full text-purple"
                 placeholder="First Last"
               />
             </label>
-            <label class="block mt-4">
+            <label className="block mt-4">
               <span>Email</span>
               <input
                 name="_replyto"
                 required
                 type="email"
-                class="form-input mt-1 block w-full text-purple"
+                className="form-input mt-1 block w-full text-purple"
                 placeholder="you@excitingthings.org"
               />
             </label>
-            <label class="block mt-4">
+            <label className="block mt-4">
               <span>Phone</span>
               <input
                 name="user-phone"
                 type="tel"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                class="form-input mt-1 block w-full text-purple"
+                className="form-input mt-1 block w-full text-purple"
                 placeholder="123-456-7890"
               />
             </label>
-            <label class="block mt-4">
+            <label className="block mt-4">
               <span>Message</span>
               <textarea
                 name="user-message"
                 rows="8"
-                class="form-input mt-1 block w-full text-purple"
+                className="form-input mt-1 block w-full text-purple"
               />
             </label>
             {status === "SUCCESS" ? (
