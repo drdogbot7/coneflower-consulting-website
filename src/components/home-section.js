@@ -8,11 +8,7 @@ const HomeSection = props => (
         (props.imgLast === true ? " order-last" : "")
       }
     >
-      <img
-        className="w-full h-auto"
-        src={props.img}
-        alt={props.title}
-      />
+      <img className="w-full h-auto" src={props.img} alt={props.title} />
     </div>
     <div className={"p-4 lg:p-8 md:w-1/2"}>
       <h2 className="text-purple font-thin uppercase text-2xl">

@@ -50,12 +50,12 @@ const IndexPage = () => (
         img={communications}
         title="Communications"
         description="It’s hard to rally people around your mission if you can’t communicate it clearly and memorably. With a combined staff experience of over twenty years in marketing and promotions, Coneflower Consulting supports all your website, digital media, graphic design, copy writing, and print publication needs."
-        />
+      />
       <HomeSection
         img={strategicPlanning}
         title="Strategic Planning"
         description="Before you invest in that big consulting firm from the coast, take a look closer to home. We know the Midwest non-profit ecosystem inside and out, and we’re here to help you make the most of all that it has to offer, today and tomorrow."
-        />
+      />
       <HomeSection
         imgLast
         img={leadership}

@@ -1,4 +1,4 @@
-const postCssEasyImport = require('postcss-easy-import')
+const postCssEasyImport = require("postcss-easy-import")
 const tailwindcss = require("tailwindcss")
 const purgecss = require("@fullhuman/postcss-purgecss")({
   content: ["./src/**/*.js"],

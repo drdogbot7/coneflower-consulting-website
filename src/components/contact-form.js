@@ -55,7 +55,9 @@ export default class ContactForm extends React.Component {
                 name="user-interest"
                 className="form-select mt-1 block w-full text-purple"
               >
-                <option value="" disabled selected>Select your option</option>
+                <option value="" disabled selected>
+                  Select your option
+                </option>
                 <option value="Programming">Programming</option>
                 <option value="Grant Writing">Grant Writing</option>
                 <option value="Fundraising">Fundraising</option>
