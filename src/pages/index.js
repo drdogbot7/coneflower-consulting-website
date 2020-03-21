@@ -22,9 +22,23 @@ const IndexPage = () => (
           face special challenges and unique opportunities based on their
           geographic, cultural, and political environments. At Coneflower
           Consulting, we are committed to helping creative non-profits in the
-          Midwest flourish. Whether your non-profit organization’s mission is in
-          arts & culture, humanities, or education, we’re here to help you
-          cultivate the resources you need to thrive.
+          Midwest flourish. If your non-profit organization’s mission is in arts
+          & culture, humanities, or education, we’re here to help you cultivate
+          the resources you need to thrive.
+        </p>
+      </div>
+    </div>
+    <div className="bg-orange text-white py-8">
+      <div className="max-w-3xl mx-auto">
+        <p>
+          <b>Consulting during Covid-19:</b> During this challenging time,
+          Coneflower Consulting is ready to work with you to meet your changing
+          needs. Special discounts and payment plans available for those in
+          need. Fill out the{" "}
+          <a className="underline" href="#contact">
+            contact form
+          </a>{" "}
+          below.
         </p>
       </div>
     </div>
@@ -38,7 +52,7 @@ const IndexPage = () => (
         imgLast
         img={grantWriting}
         title="Grant Writing"
-        description="Coneflower Consulting has brought over $4 million in grants to the Midwest in just over eight years. We have experience not only finding grant opportunities that are unique to creative non-profits in the Midwest but securing them through our expertise in program development, proposal writing, project management, budgeting, and evaluation. Whether you’re just starting to think about grant funding, need help writing and submitting a grant application, or want administrative support for a previously secured grant award, we can help."
+        description="Coneflower Consulting has brought over $4 million in grants to the Midwest in just over eight years. We have experience not only finding grant opportunities that are unique to creative non-profits in the Midwest but also securing them through our expertise in program development, proposal writing, project management, budgeting, and evaluation. Whether you’re just starting to think about grant funding, need help writing and submitting a grant application, or want administrative support for a previously secured grant award, we can help."
       />
       <HomeSection
         img={fundraising}
