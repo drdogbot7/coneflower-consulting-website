@@ -1,4 +1,5 @@
 import React from "react"
+import Recaptcha from "react-recaptcha"
 
 export default class ContactForm extends React.Component {
   constructor(props) {
@@ -75,6 +76,7 @@ export default class ContactForm extends React.Component {
                 className="form-input mt-1 block w-full text-purple"
               />
             </label>
+            <Recaptcha className="mt-4" sitekey="6LcKBPMUAAAAAJdAbp-ExMUbyI40Un2sXtHQ05XO" />
             {status === "SUCCESS" ? (
               <p>Thanks!</p>
             ) : (
