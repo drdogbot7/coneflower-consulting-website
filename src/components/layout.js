@@ -5,19 +5,19 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
 
-import Header from "./header"
-import Navigation from "./navigation"
-import ContactForm from "./contact-form"
-import Footer from "./footer"
-import initClient from "./initClient"
+import Header from "./header";
+import Navigation from "./navigation";
+import ContactForm from "./contact-form";
+import Footer from "./footer";
+import initClient from "./initClient";
 
-import "../styles/main.css"
+import "../styles/main.css";
 
-initClient()
+initClient();
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
@@ -38,11 +38,11 @@ const Layout = ({ children }) => {
       <ContactForm />
       <Footer />
     </>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

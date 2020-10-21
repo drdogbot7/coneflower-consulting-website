@@ -1,21 +1,21 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import HomeSection from "../components/home-section"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import HomeSection from "../components/home-section";
 
-import communications from "../images/coneflower-consulting-communications.svg"
-import fundraising from "../images/coneflower-consulting-fundraising.svg"
-import grantWriting from "../images/coneflower-consulting-grant-writing.svg"
-import leadership from "../images/coneflower-consulting-leadership.svg"
-import programming from "../images/coneflower-consulting-programming.svg"
-import strategicPlanning from "../images/coneflower-consulting-strategic-planning.svg"
+import communications from "../images/coneflower-consulting-communications.svg";
+import fundraising from "../images/coneflower-consulting-fundraising.svg";
+import grantWriting from "../images/coneflower-consulting-grant-writing.svg";
+import leadership from "../images/coneflower-consulting-leadership.svg";
+import programming from "../images/coneflower-consulting-programming.svg";
+import strategicPlanning from "../images/coneflower-consulting-strategic-planning.svg";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="bg-purple text-white py-16">
-      <div className="max-w-3xl mx-auto text-lg">
+    <div className="py-16 text-white bg-purple">
+      <div className="max-w-3xl px-4 mx-auto text-lg">
         <p>
           Just as the flora and fauna of the Great Plains are shaped by the
           rolling prairies and rugged climate in which they exist, non-profits
@@ -28,16 +28,19 @@ const IndexPage = () => (
         </p>
       </div>
     </div>
-    <div className="bg-orange text-white py-8">
-      <div className="max-w-3xl mx-auto">
+    <div className="py-8 text-white bg-orange">
+      <div className="max-w-3xl px-4 mx-auto">
         <p>
-          <b>Consulting during Covid-19:</b> During this challenging time,
+          <b>Consulting during Covid-19:</b>
+          {' '}
+          During this challenging time,
           Coneflower Consulting is ready to work with you to meet your changing
           needs. Special discounts and payment plans available for those in
-          need. Fill out the{" "}
+          need. Fill out the
+          {" "}
           <a className="underline" href="#contact">
             contact form
-          </a>{" "}
+          </a>
           below.
         </p>
       </div>
@@ -77,7 +80,7 @@ const IndexPage = () => (
         description="We specialize in the challenges that come with leadership transitions and are well-equipped to help your organization navigate periods of change to end up stronger, more cohesive, and more motivated than ever! We work with staff, board members, and donors to ensure that all parties feel their needs are being met during times of transition, and we can also provide interim leadership and temporary staffing support."
       />
       <hr className="my-8 lg:my-16" />
-      <h2 className="text-purple font-thin uppercase text-2xl">About Us</h2>
+      <h2 className="text-2xl font-thin uppercase text-purple">About Us</h2>
       <p className="mt-4">
         The humble coneflower is a common sighting amongst the prairie grasses
         of the Great Plains. Deceptively delicate-looking with its petals
@@ -97,6 +100,6 @@ const IndexPage = () => (
       </p>
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
