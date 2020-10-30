@@ -41,6 +41,7 @@ const IndexPage = () => (
           <a className="underline" href="#contact">
             contact form
           </a>
+          {" "}
           below.
         </p>
       </div>
